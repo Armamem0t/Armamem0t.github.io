@@ -1,0 +1,142 @@
+@font-face {
+    font-family: ten;
+    src: url('cssfont/minecraft-ten.ttf');
+}
+
+@font-face {
+    font-family: seven;
+    src: url('cssfont/seven.ttf');
+}
+
+@font-face {
+    font-family: blod;
+    src: url('cssfont/NotoSans-Bold-11db8.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.ten {
+    font-family: ten;
+}
+
+.blod {
+    font-family: blod;
+}
+
+.seven {
+    font-family: seven;
+}
+
+h1{
+    font-family: blod;
+}
+
+h2{
+    font-family: blod;
+}
+
+h3{
+    font-family: blod;
+}
+
+h4{
+    font-family: blod;
+}
+
+h5{
+    font-family: blod;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #CBE1E3;
+    height: 80px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 0 0;
+}
+
+.bottom {
+    background-color: #CBE1E3;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    padding: 0;
+}
+
+.main {
+    position: absolute;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mubt {
+    display: inline-block;
+    padding: 8px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #a2fcff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.13);
+}
+
+.mubt:hover {
+    background-color: #91e4f3
+}
+
+.mubt:active {
+    background-color: #69bbc9;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.253);
+    transform: translateY(1px);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px 25px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hx {
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    /* Safari, Opera, and Chrome */
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    /* W3C */
+    display: box;
+    box-orient: horizontal;
+}
